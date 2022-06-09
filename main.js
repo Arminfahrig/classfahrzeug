@@ -1,28 +1,44 @@
-class fahrzeug{
-    hoehe = 1.6
-    breite = 2
-    laenge = 3
-    hersteller
-    sitzplaetze
-    farbe
+let stückzahl = 100
+class buch{
+    Vorhandenheit = true
+    verlag
+    autor
+    genre
+    name
 
-    constructor(fabrikant, farbe, sitzplaetze) {
-        this.hersteller = fabrikant
-        this.farbe = farbe
-        this.sitzplaetze = sitzplaetze
+
+    constructor(verlag, autor, genre, name) {
+        this.verlag = hersteller
+        this.autor = autor
+        this.genre = genre
+        this.name = titel
     }
 
-    Farbbestimmung(){
-        if(farbe === rot){
-            alert("rot")
+    verfuegbar(){
+        if(Vorhandenheit === true){
+            document.getElementById("Anzahl").innerHTML = "Es sind noch " + stückzahl + " Bücher vorhanden."
+            console.log("Es sind noch " + stückzahl + " Bücher vorhanden.")
+        }else {
+            alert("Das Buch ist ausverkauft.")
         }
     }
+    verkauft(){
+        stückzahl = stückzahl - 1
+        document.getElementById("Anzahl").innerHTML = "Es sind noch " + stückzahl + " Bücher vorhanden."
+
+
+    }
 
 
 }
 
-function testFahrzeug(){
-    vehikel = new fahrzeug("BMW", "rot", "7")
-    vehikel2 = new fahrzeug("Mercedes", "grau", "5")
+let lager = ["exemplar1", "exemplar2"]
 
+function init(){
+    exemplar1 = new buch("Luebbe", "KingSteven", "Thriller", "Shining")
+    exemplar2 = new buch("Argon", "EbertSabine", "HistorischerRoman", "Schwert&Krone")
 }
+
+init()
+
+
