@@ -54,8 +54,7 @@ function ausDemSortiment(name){
 
 function lagerListeTitel() {
 
-
-    console.log(lager)
+    console.log()
     
 }
 
