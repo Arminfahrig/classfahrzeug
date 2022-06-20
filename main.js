@@ -1,4 +1,4 @@
-let stückzahl = 100
+let stueckzahl = 100
 let vorhandenheit = true
 class buch{
     verlag
@@ -17,20 +17,20 @@ class buch{
 
 
     verfuegbar(){
-        if (stückzahl = 0){
+        if (stueckzahl === 0){
             vorhandenheit = false}
         if(vorhandenheit === true){
-            document.getElementById("Anzahl").innerHTML = "Es sind noch " + stückzahl + " Bücher vorhanden."
-            console.log("Es sind noch " + stückzahl + " Bücher vorhanden.")
+            document.getElementById("Anzahl").innerHTML = "Es sind noch " + stueckzahl + " Bücher vorhanden."
+            console.log("Es sind noch " + stueckzahl + " Bücher vorhanden.")
         } else {
             alert("Das Buch ist ausverkauft.")
         }
     }
 
     verkauft(){
-        if(stückzahl > 0){
-        stückzahl = stückzahl - 1
-        document.getElementById("Anzahl").innerHTML = "Es sind noch " + stückzahl + " Bücher vorhanden."
+        if(stueckzahl > 0){
+        stueckzahl = stueckzahl - 1
+        document.getElementById("Anzahl").innerHTML = "Es sind noch " + stueckzahl + " Bücher vorhanden."
 
         }
     }
