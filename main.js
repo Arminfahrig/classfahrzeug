@@ -35,10 +35,6 @@ class buch{
         }
     }
 
-
-
-
-
 }
 
 let lager = ["exemplar1", "exemplar2", "exemplar3", "exemplar4"]
@@ -54,7 +50,13 @@ init()
 
 function ausDemSortiment(name){
 
+
 }
-//hallorius
+
+
+
+
+
+ieklthjghkbfblqkwifhguiq    rlfjkoEJIHUGBJW,ekndgbqjk.
 
 // um himmels willen mit wem muss ich hier arbeiten? Womitz hab ich das verdient???
