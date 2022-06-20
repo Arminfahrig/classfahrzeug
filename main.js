@@ -50,7 +50,12 @@ init()
 
 function ausDemSortiment(name){
 
-
 }
 
+function lagerListeTitel() {
+
+
+    console.log(lager)
+    
+}
 
