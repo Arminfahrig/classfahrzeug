@@ -57,3 +57,4 @@ function ausDemSortiment(name){
 }
 //hallorius
 
+// um himmels willen mit wem muss ich hier arbeiten? Womitz hab ich das verdient???
