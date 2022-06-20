@@ -54,9 +54,3 @@ function ausDemSortiment(name){
 }
 
 
-
-
-
-ieklthjghkbfblqkwifhguiq    rlfjkoEJIHUGBJW,ekndgbqjk.
-
-// um himmels willen mit wem muss ich hier arbeiten? Womitz hab ich das verdient???
