@@ -35,10 +35,6 @@ class buch{
         }
     }
 
-
-
-
-
 }
 
 let lager = ["exemplar1", "exemplar2", "exemplar3", "exemplar4"]
@@ -54,6 +50,7 @@ init()
 
 function ausDemSortiment(name){
 
+
 }
-//hallorius
+
 
