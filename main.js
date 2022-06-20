@@ -37,25 +37,32 @@ class buch{
 
 }
 
-let lager = ["exemplar1", "exemplar2", "exemplar3", "exemplar4"]
 
-function init(){
+/*function init(){
     exemplar1 = new buch("Luebbe", "KingSteven", "Thriller", "Shining")
     exemplar2 = new buch("Argon", "EbertSabine", "HistorischerRoman", "Schwert&Krone")
     exemplar3 = new buch("Ullstein", "KlingMarc-Uwe", "Komödie", "KänguruTriologie")
     exemplar4 = new buch("Luebbe", "FolletKen", "HistorischerRoman", "Kingsbridge")
+
 }
 
-init()
+init()*/
 
 function ausDemSortiment(name){
 
 }
-
+let lager = [exemplar1, exemplar2, exemplar3, exemplar4]
+console.log(lager)
 function lagerListeTitel() {
 
 
+        exemplar1 = new buch("Luebbe", "KingSteven", "Thriller", "Shining")
+        exemplar2 = new buch("Argon", "EbertSabine", "HistorischerRoman", "Schwert&Krone")
+        exemplar3 = new buch("Ullstein", "KlingMarc-Uwe", "Komödie", "KänguruTriologie")
+        exemplar4 = new buch("Luebbe", "FolletKen", "HistorischerRoman", "Kingsbridge")
+
+
     console.log(lager)
-    
+
 }
 
