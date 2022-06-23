@@ -52,6 +52,7 @@ function init(){
 }
 
 init()
+console.log(lager)
 
 function ausDemSortiment(name){
 
@@ -67,4 +68,3 @@ function lagerListeTitel() {
 
 }
 
-console.log(lager)
