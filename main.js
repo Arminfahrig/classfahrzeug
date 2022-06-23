@@ -1,5 +1,8 @@
 let stueckzahl = 100
 let vorhandenheit = true
+let lager = []
+
+
 class buch{
     verlag
     autor
@@ -8,10 +11,10 @@ class buch{
 
 
     constructor(verlag, autor, genre, name) {
-        this.verlag = hersteller
+        this.verlag = verlag
         this.autor = autor
         this.genre = genre
-        this.name = titel
+        this.name = name
     }
 
 
@@ -38,31 +41,30 @@ class buch{
 }
 
 
-/*function init(){
+function init(){
     exemplar1 = new buch("Luebbe", "KingSteven", "Thriller", "Shining")
     exemplar2 = new buch("Argon", "EbertSabine", "HistorischerRoman", "Schwert&Krone")
     exemplar3 = new buch("Ullstein", "KlingMarc-Uwe", "Komödie", "KänguruTriologie")
     exemplar4 = new buch("Luebbe", "FolletKen", "HistorischerRoman", "Kingsbridge")
 
+    lager.push(exemplar1,exemplar2,exemplar3,exemplar4)
+
 }
 
-init()*/
+init()
 
 function ausDemSortiment(name){
 
 }
-let lager = [exemplar1, exemplar2, exemplar3, exemplar4]
-console.log(lager)
 function lagerListeTitel() {
 
 
-        exemplar1 = new buch("Luebbe", "KingSteven", "Thriller", "Shining")
-        exemplar2 = new buch("Argon", "EbertSabine", "HistorischerRoman", "Schwert&Krone")
-        exemplar3 = new buch("Ullstein", "KlingMarc-Uwe", "Komödie", "KänguruTriologie")
-        exemplar4 = new buch("Luebbe", "FolletKen", "HistorischerRoman", "Kingsbridge")
+
+
 
 
     console.log(lager)
 
 }
 
+console.log(lager)
