@@ -33,7 +33,7 @@ class buch{
     verkauft(){
         if(stueckzahl > 0){
         stueckzahl = stueckzahl - 1
-        document.getElementById("Anzahl").innerHTML = "Es sind noch " + stueckzahl + " Bücher vorhanden."
+        document.getElementById("Anzahl").innerHTML = "Es sind jetzt noch " + stueckzahl + " Bücher vorhanden."
 
         }
     }
@@ -55,6 +55,8 @@ init()
 console.log(lager)
 
 function ausDemSortiment(name){
+    lager.slice(2)
+    console.log(lager)
 
 }
 function lagerListeTitel() {
