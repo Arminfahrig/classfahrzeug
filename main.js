@@ -10,11 +10,12 @@ class buch{
     name
 
 
-    constructor(verlag, autor, genre, name) {
+    constructor(verlag, autor, genre, name, stueckzahl) {
         this.verlag = verlag
         this.autor = autor
         this.genre = genre
         this.name = name
+        this.stueck
     }
 
 
@@ -69,4 +70,12 @@ function lagerListeTitel() {
     console.log(lager)
 
 }
+function lagerListe() {
 
+    i = 0;
+    while(i < 1){
+        console.log("gibts nicht mehr")
+
+    }
+
+}
