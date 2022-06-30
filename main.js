@@ -72,10 +72,11 @@ function lagerListeTitel() {
 }
 function lagerListe() {
 
-    i = 0;
-    while(i < 1){
-        console.log("gibts nicht mehr")
+    if(lager[0] < 100){
+        console.log("leider nur noch wenige vorhanden")
 
     }
+
+
 
 }
